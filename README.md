@@ -24,13 +24,13 @@ This project aims to classify various BBC news articles into their respective ge
   
   * Calculated the perplexity and coherence score of the model
   
-  * *Perplexity is -7.8 and coherence score 0.39*
+  * Perplexity is -7.8 and coherence score 0.39
  
  **Training the model using Gensim MALLET**
  
-  * Used 'LDAMallet' package to train data.
+  * Used `LDAMallet` package to train data.
   
-  * *Coherence score is 0.501*
+  * *Coherence score is 0.501* which is higher than with LDA package
 
   
   
