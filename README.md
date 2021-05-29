@@ -1,4 +1,4 @@
-# classifying-BBC-news-articles-through-Mallet-LDA
+# BBC News topic modelling with Gensim MALLET LDA
 This project aims to classify various BBC news articles into their respective genres. This is an application of Topic Modelling in NLP using the LDA package of Gensim. After determining the accuracy of the model using this technique, we have also used the Mallet library to furthur improve the metrics.
 
 **Datasets**
