@@ -25,16 +25,15 @@ The output was formulated as sum of probabilities as follows-
 
 
 From the above, we can find which words contribute the most to each topic. Example the top 10 words that contribute to the first topic are say, technology, mobile, etc. Upon careful observation we can find out what each topic refers to.
-* **Topic 0 -> tech**
-* **Topic 1 -> sports**
-* **Topic 2 -> business**
-* **Topic 3 -> entertainment**
-* **Topic 4 -> politics**
+| Topic number |Genre
+|--|--|
+| 0 | tech |
+|1|sports  |
+|2|business|
+|  3| entertainment |
+|4| politics |
   
-We calculate the metrics for determining the accuracy of the model through perplexity = -7.8 and coherence score = 0.39
+We calculate the metrics for determining the accuracy of the model through perplexity= -7.8 and coherence score= 0.39
 
 To further improve the accuracy of the model we use the `LDAMallet` package.With this the coherence score is 0.501. A higher coherence score value indicates a more accurate model.
 
-  
-  
-  
