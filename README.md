@@ -16,7 +16,7 @@ We then followed different pre-processing steps to clean the news data. These st
 We then created a dictionary to represent each word and their corresponding frequency of occuring in the articles. This was done using the `gensim corpora` library. This was used as input for the `ldamodel` function. 
 
 The output was formulated as sum of probabilities as follows-
-| Topic number |value
+| Topic number |Formulation
 |--|--|
 | 0 |  '0.016*"say" + 0.016*"technology" + 0.015*"mobile" + 0.013*"phone" + 0.012*"user" + 0.011*"service" + 0.010*"firm" + 0.010*"computer" + 0.010*"music" + 0.009*"network"' |
 |1|'0.040*"game" + 0.020*"player" + 0.018*"play" + 0.015*"year" + 0.011*"good" + 0.009*"first" + 0.009*"time" + 0.009*"take" + 0.009*"go" + 0.009*"win"'|
